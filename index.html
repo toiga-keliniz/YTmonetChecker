@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка монетизации YouTube видео</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <a href="index.html" class="site-name">YT Downloader</a>
+        <div>
+            <a href="index.html" class="button">Главная</a>
+            <a href="monetization.html" class="button">Монетизация</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="widget-container">
+            <h1>Проверка монетизации YouTube видео</h1>
+            <input type="text" id="videoUrl" placeholder="Введите URL видео YouTube">
+            <button id="checkButton">Проверить на монетизацию</button>
+            <p id="result"></p>
+        </div>
+
+        <div class="info-section">
+            <h2>Инструкция</h2>
+            <p><span class="highlight">1. Вставьте URL видео</span> — Сначала скопируйте ссылку на видео с YouTube, которое хотите проверить на монетизацию. Вставьте её в поле для ввода на нашем сайте.</p>
+            <p><span class="highlight">2. Нажмите кнопку "Проверить на монетизацию"</span> — После ввода ссылки нажмите кнопку, чтобы инициировать проверку.</p>
+            <p><span class="highlight">3. Просмотрите результат</span> — Результат проверки будет отображён в поле под кнопкой.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>YT Downloader 2024-2025. Все права защищены.</p>
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
